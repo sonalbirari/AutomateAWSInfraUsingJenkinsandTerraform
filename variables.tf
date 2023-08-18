@@ -1,3 +1,13 @@
+variable "myAccessKey" {
+  type = string
+  default = "AKIA6CGOOVTGBDNNH7VF"
+
+}
+variable "mySecretKey" {
+  type = string
+  default = "dBWGpuYsCH4J3g8Wj4rPNdBKjmDo/6DeNrHJcPop"
+}
+
 variable "aws_region" {
        description = "The AWS region to create things in." 
        default     = "us-east-1" 
